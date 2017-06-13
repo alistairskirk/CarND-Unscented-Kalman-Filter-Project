@@ -75,7 +75,7 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
 	/*****************************************************************************
 	*  Initialization
 	****************************************************************************/
-	int debug = 1;
+	int debug = 0;
 	if (!is_initialized_) {
 				
 		// first measurement
